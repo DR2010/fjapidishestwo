@@ -1,0 +1,4 @@
+docker run --add-host="localhost:10.0.0.4" -p 1611:1610 contfjapidishes
+docker ps
+docker build -t contfjapidishes .
+docker run -it contfjapidishes

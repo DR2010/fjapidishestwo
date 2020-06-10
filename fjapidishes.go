@@ -27,22 +27,22 @@ func main() {
 
 	variable := helper.Readfileintostruct()
 	RedisAddressPort := variable.RedisAddressPort
-	RedisPassword := variable.RedisPassword
+	// RedisPassword := variable.RedisPassword
 
 	// Local Redis Instance
-	// redisclientX = redis.NewClient(&redis.Options{
-	// 	Addr:     RedisAddressPort,
-	// 	Password: "", // no password set
-	// 	DB:       0,  // use default DB
-	// })
-
-	// Azure Redis Instance
 	redisclient = redis.NewClient(&redis.Options{
 		Addr:     RedisAddressPort,
-		Password: RedisPassword,
-		DB:       0, // use default
-		// TLSConfig: &tls.Config{}, // your config here
+		Password: "", // no password set
+		DB:       0,  // use default DB
 	})
+
+	// Azure Redis Instance
+	// redisclient = redis.NewClient(&redis.Options{
+	// 	Addr:     RedisAddressPort,
+	// 	Password: RedisPassword,
+	// 	DB:       0, // use default
+	// 	// TLSConfig: &tls.Config{}, // your config here
+	// })
 
 	pong, errx := redisclient.Ping().Result()
 	fmt.Println(pong, errx)
