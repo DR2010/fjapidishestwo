@@ -1,0 +1,8 @@
+
+
+git remote remove origin
+git remote add origin https://github.com/DR2010/fjapidishestwo.git
+git branch -M main
+git push -u origin main
+git add *
+git -m mess commit
