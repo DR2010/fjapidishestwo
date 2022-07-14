@@ -1,0 +1,24 @@
+_id,name,type,price,glutenfree,dairyfree,vegetarian,initialavailable,currentavailable,imagename,description,descricao,activitytype
+ObjectId(5a569086aa0db9ee22c441a8),Brigadeirao,Sweet,5.6,Yes,No,Yes,50,43,brigadeiro2.jpg,Chocolate sweet,Chocolate,Every Event
+ObjectId(5b30ae7f90bbb8242d348ef7),Caldo de Feijao - Beans soup,Savoury,2.00,Yes,No,No,140,45,caldofeijao.jpg,Beans Soup,Sopa de Feijao,EveryEvent
+ObjectId(5a7affeabe49ce7f0548d2bd),Coxinha,Savoury,3.20,No,No,No,124,153,coxinha.jpeg,Chicken roll,Coxinha de Galinha,EveryEvent
+ObjectId(5a56909aaa0db9ee22c441b0),Bolo de Cenoura,Sweet,3.00,No,No,No,50,45,bolo-cenoura-chocolate.jpg,Carrot cake,Bolo de Cenoura,Every Event
+ObjectId(5b40881490bbb8242d348fbe),Coke diet,Drink,1.00,No,No,No,50,50,Coke.jpeg,Coke,Coke,Every Event
+ObjectId(5b38b35190bbb8242d348f03),Brigadeiro - Chocolate Ball,Sweet,1.00,No,No,No,50,50,brigadeiro.jpg,Chocolate Ball,Brigadeiro,EveryEvent
+ObjectId(5b30acde90bbb8242d348ef4),Kibe - Lebanese Meat Ball,Savoury,2.00,No,No,No,50,50,Kibe1.jpg,Lebanese Meat Ball,Kibe,EveryEvent
+ObjectId(5b38b3a790bbb8242d348f05),Guarana (drink),Drink,2.00,No,No,No,50,507,guarana.jpg,Guarana,Guarana,Every Event
+ObjectId(5b38b3d690bbb8242d348f07),Suco - Juice,Drink,1.00,No,No,No,50,50,suco.jpg,Juice,Suco,Every Event
+ObjectId(5b38b37c90bbb8242d348f04),Pudim de Tapioca - Tapioca Pudim,Sweet,2.00,No,No,No,50,50,tapioca.jpg,Tapioca Pudim,Pudim de Tapioca,EveryEvent
+ObjectId(5b38b3bd90bbb8242d348f06),Agua - Water,Drink,1.00,No,No,No,50,50,agua.jpg,Water,Agua,EveryEvent
+ObjectId(5b30aef590bbb8242d348ef9),Risoli de Milho - Corn Risolli,Savoury,2.00,No,No,No,50,50,risole.jpg,Corn Risolli,Risoli de Milho,Every Event
+ObjectId(5b38b2da90bbb8242d348f00),Bolo de Milho - Corn Cake,Sweet,2.00,No,No,No,50,50,bolodemilho.jpg,Corn Cake,Bolo de Milho,Festa Junina
+ObjectId(5b38b30590bbb8242d348f01),Curau - Corn Custard,Sweet,1.00,No,No,No,50,50,curau.jpg,Corn Custard,Curau,EveryEvent
+ObjectId(5b38b27190bbb8242d348efe),Bolo de Cenoura - Carrot Cake,Sweet,2.00,No,No,No,50,50,bolo-cenoura-chocolate.jpg,Carrot Cake,Bolo de Cenoura,Every Event
+ObjectId(5b38b2b290bbb8242d348eff),Bolo de Fuba/ Maize Flour Cake,Sweet,2.00,Yes,No,No,50,50,bolodefuba.jpg,Maize Flour Cake,Bolo de Fuba,EveryEvent
+ObjectId(5b38b23590bbb8242d348efd),Bolo de Mandioca/ Cassava Cake,Sweet,4.00,Yes,No,No,50,50,mandioca.jpg,Cassava Cake,Bolo de Mandioca,Every Event
+ObjectId(5b38b32c90bbb8242d348f02),Cocada - Coconut Sweet,Sweet,1.00,No,No,No,50,50,cocada.jpg,Coconut Sweet,Cocada,Every Event
+ObjectId(5a9119bc51baccdfceaeb9a7),Pipoca,Savoury,19.00,No,No,No,100,100,popcorn.jpg,Popcorn,Pipoca,EveryEvent
+ObjectId(5b30ad0e90bbb8242d348ef5),Coxinha - Chicken Balls,Savoury,2.00,No,No,No,505,50,coxinha.jpeg,Chicken Balls,Coxinha de Galinha,Every Event
+ObjectId(62638000d0777d0185c88395),BrigadeiraoII,Sweet,4.30,Yes,No,Yes,50,43,brigadeiro2.jpg,Chocolate sweet,Chocolate,Picanha
+ObjectId(6263800ed0777d0185c88396),BrigadeiraoIV,Sweet,4.30,Yes,No,Yes,50,43,brigadeiro2.jpg,Chocolate sweet,Chocolate,Picanha
+ObjectId(62638d731f3d844d5e94a0a7),Brigadeirao-Dan,Sweet,7.60,Yes,No,Yes,50,43,brigadeiro2.jpg,Chocolate sweet,Chocolate,Picanha
