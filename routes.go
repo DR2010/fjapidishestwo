@@ -65,4 +65,6 @@ var routes = Routes{
 	Route{"dishupdate", "POST", "/dishupdate", Hdishupdate},
 	Route{"dishdelete", "POST", "/dishdelete", Hdishdelete},
 	Route{"dishalsolist", "GET", "/dishalsolist", Hdishalsolist},
+	Route{"complexlist", "GET", "/complexlist", Hcomplexlist},
+	Route{"complexadd", "POST", "/complexadd", Hcomplexadd},
 }

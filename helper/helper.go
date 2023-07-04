@@ -13,6 +13,7 @@ var redisclient *redis.Client
 var SYSID string
 var databaseEV DatabaseX
 
+
 // DatabaseX is a struct
 type DatabaseX struct {
 	Location   string // location of the database localhost, something.com, etc
@@ -48,8 +49,9 @@ func GetRedisPointer(bucket int) *redis.Client {
 }
 
 // RestEnvVariables = restaurante environment variables
-//
 type RestEnvVariables struct {
+	MySQLLocation         string
+	MySQLConnString       string
 	APIMongoDBLocation    string // location of the database localhost, something.com, etc
 	APIMongoDBDatabase    string // database name
 	APIAPIServerPort      string // collection name
@@ -71,7 +73,7 @@ type RestEnvVariables struct {
 
 // Readfileintostruct is
 func Readfileintostruct() RestEnvVariables {
-	dat, err := ioutil.ReadFile("fjapidishes.ini")
+	dat, err := ioutil.ReadFile("dmapicomplex.ini")
 	check(err)
 	// fmt.Print(string(dat))
 
